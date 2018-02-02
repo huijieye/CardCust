@@ -1,0 +1,14 @@
+{
+    "name": "Cardcust/card",
+    "description": "projet testing",
+    "type": "projet",
+    "require": {
+        "twig/twig": "^2.4",
+        "symfony/routing": "^3.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "Cardcust\\card\\":"lib/"
+        }
+    }
+}
